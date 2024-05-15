@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000; /* Black text */
+}
+
+main {
+  margin-top: 60px; /* Adjust according to your navbar height */
+}
+
+section {
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
